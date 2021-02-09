@@ -1,6 +1,6 @@
 body{
     max-height: 800px;
-    background-image: url("profile-card-component-main/images/bg-pattern-top.svg"), url("profile-card-component-main/images/bg-pattern-bottom.svg");
+    background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
     background-position: left top, right bottom;
     background-size: 50% 80%, 50% 80%, auto;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ body{
 }
 
 .head{
-    background-image: url("profile-card-component-main/images/bg-pattern-card.svg");
+    background-image: url("bg-pattern-card.svg");
     grid-column: 1/4;
     border-radius: 10px 10px 2px 2px;
     border-top: 1px gray solid;
